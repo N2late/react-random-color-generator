@@ -25,9 +25,9 @@ function App() {
           transition: 'color 1s ease-out, background-color 1s ease-out',
         }}
       >
-        <p style={{ backgroundColor: 'white', padding: 5, borderRadius: 5 }}>
+        <div style={{ backgroundColor: 'white', padding: 5, borderRadius: 5 }}>
           Generated Color: <span style={{ color: color }}>{color}</span>
-        </p>
+        </div>
       </div>
       <button
         style={{
